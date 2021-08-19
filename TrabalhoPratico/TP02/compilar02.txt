@@ -1,0 +1,5 @@
+gcc -c main.c lista.c arvoreBinaria.c
+
+gcc -o executavel main.o lista.o arvoreBinaria.o
+
+./executavel

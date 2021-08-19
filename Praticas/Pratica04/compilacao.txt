@@ -1,0 +1,5 @@
+gcc -c arquivo.c
+gcc -c diretorio.c
+gcc -c principal.c
+gcc -o exe arquivo.o diretorio.o principal.o
+./exe.exe

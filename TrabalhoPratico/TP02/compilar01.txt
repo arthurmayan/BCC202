@@ -1,0 +1,5 @@
+gcc -c main.c auxiliares.c pivo_aleatorio.c pivo_mediana.c
+
+gcc -o executavel main.o auxiliares.o pivo_aleatorio.o pivo_mediana.o
+
+./executavel

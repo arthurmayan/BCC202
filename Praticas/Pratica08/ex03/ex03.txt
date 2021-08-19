@@ -1,0 +1,7 @@
+Questão 03
+
+É possível que o resultado impresso pelo programa seja diferente entre os algoritmos BubbleSort, InsertionSort, SelectionSort e MergeSort? Por quê?
+
+R- Nao. 
+A impressao será a mesma para todos os algoritmos de ordenacao por mais que o SelectionSort não seja estável. 
+Mesmo na versão não estável do SelectionSort a ordem dos itens com chaves iguais permanecerá iguais.

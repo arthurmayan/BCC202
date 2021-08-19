@@ -1,0 +1,4 @@
+gcc -c ponto.c
+gcc -c principal.c
+gcc -o teste ponto.o principal.o -lm
+./teste

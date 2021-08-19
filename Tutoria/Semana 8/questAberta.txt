@@ -1,0 +1,18 @@
+Faça uma comparação entre as buscas, realizando estas em diferentes situações
+(elemento no início, meio, fim e não encontrado). Qual conclusão chegamos em 
+relação as duas buscas?
+R- O melhor caso da Pesquisa Sequencial é quando o item a ser procurado está no 
+começo do vetor fazendo somente uma comparação O(1), nos outros casos as 
+comparações necessárias para encontrar o item foi O(n). Já o melhor caso 
+da Pesquisa Binária é quando o item está localizado no meio do vetor, tendo uma 
+complexidade de O(1), em todos os outros casos O(log n). 
+Em situações no qual há muitos registros a melhor alternativa é a Pesquisa Binária.
+
+2 – Explique a diferença entre uma árvore binária de busca e uma árvore AVL. 
+Cite as vantagens da árvore AVL.
+R - A maior diferença é que na arvore binária podemos ter estruturas não 
+balanceadas e com diversos níveis, nas arvores AVL tais características não são 
+permitidas, sendo assim estruturas que são balanceadas e de níveis n a n – 1,
+isto é, o fator de balanceamento entre seus nós estão sempre no intervalo de [-1, 1].
+A vantagem de uma árvore binária AVL sobre uma árvore binária está em sua
+eficiência, no qual evita o pior caso O(n) da árvore binária em uma pesquisa para O(logn).
